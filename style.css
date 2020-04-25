@@ -1,0 +1,54 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: 400;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 4rem;
+    background: rgba(0, 0, 0, 0.582);
+    border-radius: 10px;
+
+    flex: 0 0 80%;
+}
+
+#quoteBtn {
+    border: none;
+    color: white;
+    border: 1px solid white;
+    background:transparent;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 1s;
+    outline: none;
+}
+#quoteBtn:hover {
+    color:black;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.425);
+}
+
+blockquote {
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 3px;
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+}
+
+#quoteAuthor {
+    color: white;
+    text-transform: uppercase;
+}
